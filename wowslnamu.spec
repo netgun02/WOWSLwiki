@@ -10,7 +10,7 @@ a = Analysis(
         ('data/consumables_parser_rules/*.json', 'data/consumables_parser_rules'),
     ],
     hiddenimports=['tkinter', '_tkinter'],
-    hookspath=[],
+    hookspath=['pyinstaller_hooks'],
     hooksconfig={},
     runtime_hooks=[],
     excludes=[],

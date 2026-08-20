@@ -2463,7 +2463,28 @@ def build_secondary_block(sec_rows, border_color, ship_name_en=""):
         }
 
     mapped_rows = [map_row(r) for r in sec_rows if isinstance(r, dict)]
-    mapped_rows = [r for r in mapped_rows if any((r["name"], r["arrangement"], r["reload_s"], r["range_km"], r["dmg"], r["pen"]))]
+
+    def is_meaningful_value(value):
+        token = normalize_token(value)
+        token = re.sub(r"(?:%|mm)$", "", token).strip()
+        return token not in ("", "-", "—", "–", "x", "×", "n/a", "na", "none")
+
+    # Empty numbered slots still map their missing fire/penetration values to
+    # "x".  Do not let those defaults create phantom armament tabs.
+    data_fields = ("name", "arrangement", "reload_s", "range_km", "dmg", "fire", "pen")
+    mapped_rows = [
+        row for row in mapped_rows
+        if any(is_meaningful_value(row[field]) for field in data_fields)
+    ]
+
+    # Some copied pages repeat the same armament section.  Tabs represent
+    # distinct armament specifications, so remove exact normalized repeats
+    # while preserving genuinely different mounts of the same caliber.
+    identity_fields = ("name", "arrangement", "reload_s", "range_km", "shell_type", "dmg", "fire", "pen")
+    mapped_rows = dedupe_preserve_order(
+        mapped_rows,
+        key_fn=lambda row: tuple(normalize_token(row[field]) for field in identity_fields),
+    )
 
     # Each armament row is a separate selectable secondary-battery type.
     merged = [dict(r) for r in mapped_rows]
@@ -2799,33 +2820,48 @@ def roman_to_arabic(value):
 
 def clean_ship_name(name):
     n = (name or "").strip()
+    # Markdown copies of the overview line wrap the ship name in bold markers.
+    n = re.sub(r"^(?:\*\*|__)(.*?)(?:\*\*|__)$", r"\1", n)
+    n = re.sub(r"^\[([^\]]+)\]\([^\)]+\)$", r"\1", n)
     n = re.sub(r"\s+", " ", n)
     return n
+
+
+def _parse_tier_label(line):
+    roman_match = re.search(r"\bTier\s+([IVXLCDM]+)\b", line or "", re.IGNORECASE)
+    if roman_match:
+        return roman_to_arabic(roman_match.group(1))
+    if re.search(r"\bLegendary\s+Tier\b", line or "", re.IGNORECASE):
+        return "전설"
+    return ""
 
 
 def parse_name_and_tier(raw_text):
     text = raw_text or ""
     for raw_line in text.splitlines():
         line = raw_line.strip()
-        if not line or "Tier" not in line:
+        if not line or "tier" not in line.lower():
             continue
 
-        tier_match = re.search(r"\bTier\s+([IVXLCDM]+)\b", line, re.IGNORECASE)
-        if not tier_match:
+        tier = _parse_tier_label(line)
+        if not tier:
             continue
-        tier = roman_to_arabic(tier_match.group(1))
 
-        parts = re.split(r"\s+[—\-]\s+|\s+\?\s+", line, maxsplit=1)
-        left = parts[0].strip() if parts else line
+        # Ship overview format:
+        #   Shimakaze — Japanese • Legendary Tier • Destroyer.
+        # Requiring the separator prevents prose such as
+        # "Tied with Tier IV Minekaze ..." from becoming the ship name.
+        parts = re.split(r"\s+(?:—|–|-|\?+)\s+", line, maxsplit=1)
+        if len(parts) < 2:
+            continue
+        left = parts[0].strip()
         # Strip image token prefix, e.g. "Legends_Cruiser_Icon2.png "
-        left = re.sub(r"^.*?\.png\s+", "", left, count=1, flags=re.IGNORECASE)
+        left = re.sub(r"^.*?\.png\s*", "", left, count=1, flags=re.IGNORECASE)
         name = clean_ship_name(left)
         if name:
             return name, tier
 
-    tier_match = re.search(r"\bTier\s+([IVXLCDM]+)\b", text, re.IGNORECASE)
-    tier = roman_to_arabic(tier_match.group(1)) if tier_match else ""
-    return "", tier
+    return "", ""
 
 
 def _clean_nation_text(v):
