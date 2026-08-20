@@ -1,0 +1,3 @@
+==== [[{{ship_name}}]] - {{tier}}티어 ====
+
+||<tablewidth=100%><width=40%><table bordercolor=#{{border_color}}> [[파일:워쉽 레전드 {{ship_name}}.png|width=80%]] ||<width=60%> ||

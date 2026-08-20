@@ -1,0 +1,4 @@
+﻿||<-4><tablewidth=100%><table bordercolor=#{{border_color}}><bgcolor=#{{border_color}}> {{{#ffffff 소모품}}} ||
+||<bgcolor=#{{border_color}}><tablewidth=100%><width=15%> {{{#ffffff 슬롯 위치}}} ||<bgcolor=#{{border_color}}><width=25%> {{{#ffffff 명칭}}} ||<bgcolor=#{{border_color}}><width=60%> {{{#ffffff 설명}}} ||
+{{cons_rows}}
+

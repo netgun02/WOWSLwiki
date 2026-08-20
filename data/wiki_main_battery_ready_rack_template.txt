@@ -1,0 +1,14 @@
+||<tablewidth=100%><table bordercolor=#{{border_color}}><#{{border_color}}><-4> {{{#FFFFFF 주함포}}} ||
+||<#{{border_color}}><width=10%> {{{#FFFFFF 명칭}}} ||<width=90%><-3> {{main_name}} ||
+||<#{{border_color}}><width=10%><|4> {{{#FFFFFF 포대}}} ||<#{{border_color}}><width=30%> {{{#FFFFFF 탑재 수}}} ||<#{{border_color}}><width=30%> {{{#FFFFFF 장전 시간}}} ||<#{{border_color}}><width=30%> {{{#FFFFFF 180도 회전 시간}}} ||
+|| {{main_arrangement}} || {{main_reload_sec}}초 || {{main_turn180_sec}}초 ||
+||<-3> {{{#!wiki style="margin: -16px -11px;" 
+||<-2><#{{border_color}}><tablewidth=100%><width=50%> {{{#FFFFFF 사거리}}} ||<-2><#{{border_color}}><width=50%> {{{#FFFFFF 시그마}}} ||
+||<-2> {{main_range_km}}km ||<-2> {{main_sigma}} ||}}} ||
+||<-3> {{{#!wiki style="margin: -16px -11px;" 
+||<-2><#{{border_color}}><tablewidth=100%><width=50%> {{{#FFFFFF 적치탄 장전 시간}}} ||<-2><#{{border_color}}><width=50%> {{{#FFFFFF 적치탄 수}}} ||
+||<-2> {{main_ready_rack_reload_sec}} ||<-2> {{main_ready_rack_shells}} ||}}} ||
+||<#{{border_color}}><width=10%><|3> {{{#FFFFFF 포탄}}} ||<-3> {{{#!wiki style="margin: -16px -11px;" 
+||<#{{border_color}}><tablewidth=100%><width=25%> {{{#FFFFFF 탄종}}} ||<#{{border_color}}><width=25%> {{{#FFFFFF 최대 공격력}}} ||<#{{border_color}}><width=25%> {{{#FFFFFF 화재 확률}}} ||<#{{border_color}}><width=25%> {{{#FFFFFF 관통력}}} ||
+|| {{main_primary_shell}} || {{main_primary_damage}} || {{main_primary_fire}} || {{main_primary_pen}} ||
+|| 철갑탄 || {{main_ap_damage}} || || ~ ||}}} ||

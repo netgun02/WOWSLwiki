@@ -1,0 +1,14 @@
+{
+  "consumables": {
+    "Patrol Fighter": {
+      "ko": "순찰 전투기",
+      "aliases": ["Patrol Fighters", "순찰 전투기"],
+      "description": "지역을 순찰하며 자동으로 적 항공기를 요격하는 전투기 편대 호출"
+    },
+    "Evasive Maneuver": {
+      "ko": "회피 기동",
+      "aliases": ["회피 기동"],
+      "description": "활성화 시간동안 함재기 편대가 받는 피해량이 50% 감소"
+    }
+  }
+}

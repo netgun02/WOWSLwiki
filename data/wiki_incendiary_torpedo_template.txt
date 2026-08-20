@@ -1,0 +1,7 @@
+||<tablewidth=100%><table bordercolor=#{{border_color}}><#{{border_color}}><-5> {{{#FFFFFF 소이 어뢰}}} ||
+||<#{{border_color}}><width=25%> {{{#FFFFFF 명칭}}} ||<#{{border_color}}><width=25%> {{{#FFFFFF 탑재 수}}} ||<#{{border_color}}><width=25%> {{{#FFFFFF 장전 시간}}} ||<#{{border_color}}><width=25%> {{{#FFFFFF 180도 회전 시간}}} ||
+||<|6> {{inc_name}} || {{inc_arrangement}} || {{inc_reload_sec}} || {{inc_turn_sec}} ||
+||<#{{border_color}}><width=25%> {{{#FFFFFF 어뢰 최대 공격력}}} ||<#{{border_color}}><width=25%> {{{#FFFFFF 사거리}}} ||<#{{border_color}}><width=25%> {{{#FFFFFF 부스팅 최대 거리}}} ||
+|| {{inc_damage}} || {{inc_range}} || {{inc_boost_range}} ||
+||<#{{border_color}}><width=25%> {{{#FFFFFF 화재율}}} [br] {{{-2 {{{#FFFFFF 발사시~부스팅 최대}}} }}} ||<#{{border_color}}><width=25%> {{{#FFFFFF 어뢰 속력}}} [br] {{{-2 {{{#FFFFFF 발사시~부스팅 최대}}} }}} ||<#{{border_color}}><width=25%> {{{#FFFFFF 어뢰 피탐지}}} [br] {{{-2 {{{#FFFFFF 발사시~부스팅 최대}}} }}} ||
+|| {{inc_fire_start}} ~ {{inc_fire_max}} || {{inc_speed_start}} ~ {{inc_speed_max}} || {{inc_detect_start}} ~ {{inc_detect_max}} ||

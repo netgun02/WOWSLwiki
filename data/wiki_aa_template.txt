@@ -1,0 +1,3 @@
+||<tablewidth=100%><table bordercolor=#{{border_color}}><bgcolor=#{{border_color}}><-4> {{{#ffffff 대공포}}} ||
+||<bgcolor=#{{border_color}}><width=40%> {{{#ffffff 명칭}}} ||<bgcolor=#{{border_color}}><width=20%> {{{#ffffff 수량}}} ||<bgcolor=#{{border_color}}><width=20%> {{{#ffffff DPS}}} ||<bgcolor=#{{border_color}}><width=20%> {{{#ffffff 사거리}}} ||
+{{aa_rows}}

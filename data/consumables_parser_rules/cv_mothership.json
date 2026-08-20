@@ -1,0 +1,32 @@
+{
+  "consumables": {
+    "Damage Control Party": {
+      "ko": "피해 복구반",
+      "aliases": ["피해 복구반"],
+      "description": "모든 상태이상 제거 밎 지속시간 동안 면역 유지"
+    },
+    "Catapult Fighter": {
+      "ko": "사출 전투기",
+      "aliases": ["Fighter", "사출 전투기"],
+      "description": "적 항공기를 자동으로 요격하는 전투기 4기 사출"
+    }
+  },
+  "fallback_rows": [
+    {
+      "name": "Damage Control Party",
+      "ko": "피해 복구반",
+      "description": "모든 상태이상 제거 밎 지속시간 동안 면역 유지",
+      "duration": "60",
+      "reload": "90",
+      "count": "unlimited"
+    },
+    {
+      "name": "Catapult Fighter",
+      "ko": "사출 전투기",
+      "description": "적 항공기를 자동으로 요격하는 전투기 4기 사출",
+      "duration": "150",
+      "reload": "40",
+      "count": "4"
+    }
+  ]
+}

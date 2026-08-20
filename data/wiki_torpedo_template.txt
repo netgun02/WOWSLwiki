@@ -1,0 +1,8 @@
+||<tablewidth=100%><table bordercolor=#{{border_color}}><#{{border_color}}><-5> {{{#FFFFFF {{torpedo_title}}}}} ||
+||<#{{border_color}}><width=25%> {{{#FFFFFF 명칭}}} ||<#{{border_color}}><width=25%> {{{#FFFFFF 탑재 수}}} ||<#{{border_color}}><width=25%> {{{#FFFFFF 장전 시간}}} ||<#{{border_color}}><width=25%> {{{#FFFFFF 180도 회전 시간}}} ||
+||<|2> {{torpedo1_name}} || {{torpedo1_arrangement}} || {{torpedo1_reload_sec}}초 || {{torpedo1_turn_sec}}초 ||
+||<-3> {{{#!wiki style="margin: -16px -11px;"
+||<#{{border_color}}><tablewidth=100%><width=25%> {{{#FFFFFF 어뢰 최대 공격력}}} ||<#{{border_color}}><width=25%> {{{#FFFFFF 어뢰 대함 피탐지}}} ||<#{{border_color}}><width=25%> {{{#FFFFFF 사거리}}} ||<#{{border_color}}><width=25%> {{{#FFFFFF 속력}}} ||
+|| {{torpedo1_damage}} || {{torpedo1_detect_km}}km || {{torpedo1_range_km}}km || {{torpedo1_speed_knots}}knots ||}}} ||
+{{torpedo2_block}}
+## 어뢰가 심해 어뢰일시에만 괄호만 제거, 일반 어뢰는 괄호 내용 그대로 제거

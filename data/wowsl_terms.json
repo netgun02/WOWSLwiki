@@ -1,0 +1,549 @@
+{
+  "traits": {
+    "Pyromania": {
+      "ko": "방화광",
+      "en": "Pyromania",
+      "include": "방화광"
+    },
+    "Full Circle": {
+      "ko": "360도 회전",
+      "en": "Full Circle",
+      "include": "360도 회전"
+    },
+    "Airstrike": {
+      "ko": "공습",
+      "en": "Airstrike",
+      "include": "공습"
+    },
+    "Money Maker": {
+      "ko": "수익 보너스",
+      "en": "Money Maker",
+      "include": "수익 보너스"
+    },
+    "Deep Water": {
+      "ko": "심해의 위협",
+      "en": "Deep Water",
+      "include": "심해의 위협"
+    },
+    "Toasty Torpedoes": {
+      "ko": "고온 어뢰",
+      "en": "Toasty Torpedoes",
+      "include": "고온 어뢰"
+    },
+    "Carpet Bombing": {
+      "ko": "융단 폭격",
+      "en": "Carpet Bombing",
+      "include": "융단 폭격"
+    },
+    "AP Bombs": {
+      "ko": "철갑탄 폭탄",
+      "en": "AP Bombs",
+      "include": "철갑탄 폭탄"
+    },
+    "Skip Bombers": {
+      "ko": "저공 폭격기",
+      "en": "Skip Bombers",
+      "include": "저공 폭격기"
+    },
+    "Tough": {
+      "ko": "고내구성",
+      "en": "Tough",
+      "include": "고내구성"
+    },
+    "Extended Smoke": {
+      "ko": "확장 연막",
+      "en": "Extended Smoke",
+      "include": "확장 연막"
+    },
+    "Reloader": {
+      "ko": "재장전 전문가",
+      "en": "Reloader",
+      "include": "재장전 전문가"
+    },
+    "Nimble Aim": {
+      "ko": "신속한 조준",
+      "en": "Nimble Aim",
+      "include": "신속한 조준"
+    },
+    "Sluggish Shot": {
+      "ko": "저속 포탄",
+      "en": "Sluggish Shot",
+      "include": "저속 포탄"
+    },
+    "Powerful AA Defenses": {
+      "ko": "강력한 대공 성능",
+      "en": "Powerful AA Defenses",
+      "include": "강력한 대공 성능"
+    },
+    "Big and Flammable": {
+      "ko": "큰 크기와 높은 가연성",
+      "en": "Big and Flammable",
+      "include": "큰 크기와 높은 가연상"
+    },
+    "Superior AP Damage": {
+      "ko": "높은 철갑탄 공격력",
+      "en": "Superior AP Damage",
+      "include": "높은 철갑탄 공격력"
+    },
+    "Guns Aplenty": {
+      "ko": "다수의 함포",
+      "en": "Guns Aplenty",
+      "include": "다수의 함포"
+    },
+    "Long Reach": {
+      "ko": "긴 사거리",
+      "en": "Long Reach",
+      "include": "긴 사거리"
+    },
+    "Big Guns": {
+      "ko": "대구경 함포",
+      "en": "Big Guns",
+      "include": "대구경 함포"
+    },
+    "Secondary Reach": {
+      "ko": "긴 부함포 사거리",
+      "en": "Secondary Reach",
+      "include": "긴 부함포 사거리"
+    },
+    "Ironclad": {
+      "ko": "철옹성",
+      "en": "Ironclad",
+      "include": "철옹성"
+    },
+    "Slow": {
+      "ko": "저속 기동",
+      "en": "Slow",
+      "include": "저속 기동"
+    },
+    "Big Target": {
+      "ko": "대형 표적",
+      "en": "Big Target",
+      "include": "대형 표적"
+    },
+    "Sure Shot": {
+      "ko": "정밀 사격",
+      "en": "Sure Shot",
+      "include": "정밀 사격"
+    },
+    "Fast": {
+      "ko": "고속 기동",
+      "en": "Fast",
+      "include": "고속 기동"
+    },
+    "Pointy of Entry": {
+      "ko": "진입점",
+      "en": "Pointy of Entry",
+      "include": "진입점"
+    },
+    "Double the Pain": {
+      "ko": "몇배의 고통",
+      "en": "Double the Pain",
+      "include": "몇배의 고통"
+    },
+    "Hidden": {
+      "ko": "은폐",
+      "en": "Hidden",
+      "include": "은폐"
+    },
+    "Big Yield": {
+      "ko": "고효율 탄두",
+      "en": "Big Yield",
+      "include": "고효율 탄두"
+    },
+    "Superior AP pen": {
+      "ko": "높은 철갑탄 관통력",
+      "en": "Superior AP pen",
+      "include": "높은 철갑탄 관통력"
+    },
+    "Superior HE Damage": {
+      "ko": "높은 고폭탄 공격력",
+      "en": "Superior HE Damage",
+      "include": "높은 고폭탄 공격력"
+    },
+    "Stealthy Aircraft": {
+      "ko": "잠행 함재기",
+      "en": "Stealty Aircarft",
+      "include": "잠행 함재기"
+    },
+    "Onboard Factory": {
+      "ko": "자체 정비소 탑재",
+      "en": "Onboard Factory",
+      "include": "자체 정비소 탑재"
+    },
+    "Deckful": {
+      "ko": "대규모 갑판",
+      "en": "Deckful",
+      "include": "대규모 갑판"
+    },
+    "Heal Consumable": {
+      "ko": "복구용 소모품",
+      "en": "Heal Consumable",
+      "include": "복구용 소모품"
+    },
+    "Sequential": {
+      "ko": "순차적 발사",
+      "en": "Sequential",
+      "include": "순차적 발사"
+    },
+    "Inferior AP pen": {
+      "ko": "낮은 철갑탄 관통력",
+      "en": "Inferior AP pen",
+      "include": "낮은 철갑탄 관통력"
+    },
+    "Flair for Piercing": {
+      "ko": "관통 특화",
+      "en": "Flair for Piercing",
+      "include": "관통 특화"
+    },
+    "Greater Heal": {
+      "ko": "복구 극대화",
+      "en": "Greated Heal",
+      "include": "복구 극대화"
+    },
+    "Agile": {
+      "ko": "고성능 조타 장치",
+      "en": "Agile",
+      "include": "고성능 조타 장치"
+    },
+    "Superior HE pen": {
+      "ko": "높은 고폭탄 관통력",
+      "en": "Superior HE pen",
+      "include": "높은 고폭탄 관통력"
+    },
+    "Extended Sonar": {
+      "ko": "확장 소나",
+      "en": "Extended Sonar",
+      "include": "확장 소나"
+    },
+    "Barrage": {
+      "ko": "포탄 세례",
+      "en": "Barrage",
+      "include": "포탄 세례"
+    },
+    "Full Ahead": {
+      "ko": "전속 전진",
+      "en": "Full Ahead",
+      "include": "전속 전진"
+    },
+    "On Demand Repairs": {
+      "ko": "신속 수리",
+      "en": "On Demand Repairs",
+      "include": "신속 수리"
+    },
+    "Frail": {
+      "ko": "저내구성",
+      "en": "Frail",
+      "include": "저내구성"
+    },
+    "Exhaust Smoke": {
+      "ko": "배기식 연막 생성기",
+      "en": "Exhaust Smoke",
+      "include": "배기식 연막 생성기"
+    },
+    "SAP Shells": {
+      "ko": "반철갑탄",
+      "en": "SAP Shells",
+      "include": "반철갑탄"
+    },
+    "Surgical Shells": {
+      "ko": "정밀 타격 포탄",
+      "en": "Surgical Shells",
+      "include": "정밀 타격 포탄"
+    },
+    "Repeater": {
+      "ko": "어뢰 연발",
+      "en": "Repeater",
+      "include": "어뢰 연발"
+    },
+    "Modest Guns": {
+      "ko": "소구경 함포",
+      "en": "Modest Guns",
+      "include": "소구경 함포"
+    },
+    "Fast Torpedoes": {
+      "ko": "고속 어뢰",
+      "en": "Fast Torpedoes",
+      "include": "고속 어뢰"
+    },
+    "Rapid Reload": {
+      "ko": "빠른 재장전",
+      "en": "Rapid Reload",
+      "include": "빠른 재장전"
+    },
+    "Flair for Fire": {
+      "ko": "화재 유발 특화",
+      "en": "Flair for Fire",
+      "include": "화재 유발 특화"
+    },
+    "Short Range": {
+      "ko": "짧은 어뢰 사거리",
+      "en": "Short Range",
+      "include": "짧은 어뢰 사거리"
+    },
+    "Area Denial": {
+      "ko": "접근 금지",
+      "en": "Area Denial",
+      "include": "접근 금지"
+    },
+    "Revolver": {
+      "ko": "리볼버",
+      "en": "Revolver",
+      "include": "리볼버"
+    },
+    "JATO Unit": {
+      "ko": "제트 보조 이륙 장치",
+      "en": "JATO Unit",
+      "include": "제트 보조 이륙 장치"
+    },
+    "Fast Aircraft": {
+      "ko": "고속 함재기",
+      "en": "Fast Aircraft",
+      "include": "고속 함재기"
+    },
+    "Feeble Aircraft": {
+      "ko": "저내구성 함재기",
+      "en": "Feeble Aircraft",
+      "include": "저내구성 함재기"
+    },
+    "Broad Launch": {
+      "ko": "확대 발사",
+      "en": "Broad Launch",
+      "include": "확대 발사"
+    },
+    "Sticky Shot": {
+      "ko": "저도탄율 포탄",
+      "en": "Sticky Shot",
+      "include": "저도탄율 포탄"
+    },
+    "Compromising": {
+      "ko": "대비책",
+      "en": "Compromising",
+      "include": "대비책"
+    },
+    "Advanced Sonar": {
+      "ko": "고급 소나",
+      "en": "Advanced Sonar",
+      "include": "고급 소나"
+    }
+  },
+  "consumables": {
+    "Catapult Fighter": {
+      "ko": "사출 전투기",
+      "en": "Catapult Fighter"
+    },
+    "Damage Control Party": {
+      "ko": "피해 복구반",
+      "en": "Damage Control Party"
+    },
+    "Defensive AA Fire": {
+      "ko": "대공 방어 사격",
+      "en": "Defensive AA Fire"
+    },
+    "Engine Boost": {
+      "ko": "엔진 가속기",
+      "en": "Engine Boost"
+    },
+    "Enhanced Secondary Targeting": {
+      "ko": "부함포 조준 강화",
+      "en": "Enhanced Secondary Targeting"
+    },
+    "Enhanced Secondary Targeting II": {
+      "ko": "부함포 조준 강화 II",
+      "en": "Enhanced Secondary Targeting II"
+    },
+    "Evasive Maneuver": {
+      "ko": "회피 기동",
+      "en": "Evasive Maneuver"
+    },
+    "Exhaust Smoke Generator": {
+      "ko": "배기식 연막 생성기",
+      "en": "Exhaust Smoke Generator"
+    },
+    "Main Battery Reload Booster": {
+      "ko": "주함포 재장전 가속기",
+      "en": "Main Battery Reload Booster"
+    },
+    "Observation Seaplane": {
+      "ko": "정찰기",
+      "en": "Observation Seaplane"
+    },
+    "Patrol Fighters": {
+      "ko": "순찰 전투기",
+      "en": "Patrol Fighters"
+    },
+    "Repair Party": {
+      "ko": "수리반",
+      "en": "Repair Party"
+    },
+    "Smoke Generator": {
+      "ko": "연막 생성기",
+      "en": "Smoke Generator"
+    },
+    "Sonar": {
+      "ko": "소나",
+      "en": "Sonar"
+    },
+    "Surveillance Radar": {
+      "ko": "레이더",
+      "en": "Surveillance Radar"
+    },
+    "Torpedo Reload Booster": {
+      "ko": "어뢰 장전기",
+      "en": "Torpedo Reload Booster"
+    }
+  },
+  "mods": {
+    "AA Guns Mod 2": {
+      "ko": "대공포 강화 장치 2",
+      "en": "AA Guns Mod 2",
+      "img": "워쉽 레전드 강화장치 대공2.png"
+    },
+    "AA Guns Mod 3": {
+      "ko": "대공포 강화 장치 3",
+      "en": "AA Guns Mod 3",
+      "img": "워쉽 레전드 강화장치 대공3.png"
+    },
+    "Aiming Systems Mod 1": {
+      "ko": "조준 시스템 강화 장치 1",
+      "en": "Aiming Systems Mod 1",
+      "img": "워쉽 레전드 강화장치 조준1.png"
+    },
+    "Air Groups Mod 2": {
+      "ko": "편대 강화 장치 2",
+      "en": "Air Groups Mod 2",
+      "img": "워쉽 레전드 강화장치 편대2.png"
+    },
+    "Air Groups Mod 3": {
+      "ko": "편대 강화 장치 3",
+      "en": "Air Groups Mod 3",
+      "img": "워쉽 레전드 강화장치 편대3.png"
+    },
+    "Artillery Plotting Room Mod 2": {
+      "ko": "함포 통제 강화 장치 2",
+      "en": "Artillery Plotting Room Mod 2",
+      "img": "워쉽 레전드 강화장치 함포2.png"
+    },
+    "Auxiliary Armaments Mod 1": {
+      "ko": "무장 내구도 강화 장치 1",
+      "en": "Auxiliary Armaments Mod 1",
+      "img": "워쉽 레전드 강화장치 무장1.png"
+    },
+    "Chromium Plated Barrels": {
+      "ko": "크롬 도금 포신",
+      "en": "Chromium Plated Barrels",
+      "img": "워쉽 레전드 강화장치 크롬도금포신.png"
+    },
+    "Concealment System Mod 1": {
+      "ko": "위장 시스템 강화 장치 1",
+      "en": "Concealment System Mod 1",
+      "img": "워쉽 레전드 강화장치 위장1.png"
+    },
+    "Damage Control System Mod 2": {
+      "ko": "피해 복구 강화 장치 2",
+      "en": "Damage Control System Mod 2",
+      "img": "워쉽 레전드 강화장치 피복2.png"
+    },
+    "Flight Control Mod 1": {
+      "ko": "비행 관제 강화 장치 1",
+      "en": "Flight Control Mod 1",
+      "img": "워쉽 레전드 강화장치 관제1.png"
+    },
+    "Flight Control Mod 2": {
+      "ko": "비행 관제 강화 장치 2",
+      "en": "Flight Control Mod 2",
+      "img": "워쉽 레전드 강화장치 관제2.png"
+    },
+    "Gun Fire Control System Mod 2": {
+      "ko": "사격 통제 강화 장치 2",
+      "en": "Gun Fire Control System Mod 2",
+      "img": "워쉽 레전드 강화장치 사격2.png"
+    },
+    "Main Battery Mod 2": {
+      "ko": "주함포 강화 장치 2",
+      "en": "Main Battery Mod 2",
+      "img": "워쉽 레전드 강화장치 주포2.png"
+    },
+    "Main Battery Mod 3": {
+      "ko": "주함포 강화 장치 3",
+      "en": "Main Battery Mod 3",
+      "img": "워쉽 레전드 강화장치 주포3.png"
+    },
+    "Propulsion Mod 2": {
+      "ko": "추진 기관 강화 장치 2",
+      "en": "Propulsion Mod 2",
+      "img": "워쉽 레전드 강화장치 추진2.png"
+    },
+    "Secondary Battery Mod 1": {
+      "ko": "부함포 강화 장치 1",
+      "en": "Secondary Battery Mod 1",
+      "img": "워쉽 레전드 강화장치 부포1.png"
+    },
+    "Secondary Battery Mod 2": {
+      "ko": "부함포 강화 장치 2",
+      "en": "Secondary Battery Mod 2",
+      "img": "워쉽 레전드 강화장치 부포2.png"
+    },
+    "Secondary Battery Mod 3": {
+      "ko": "부함포 강화 장치 3",
+      "en": "Secondary Battery Mod 3",
+      "img": "워쉽 레전드 강화장치 부포3.png"
+    },
+    "Steering Gears Mod 2": {
+      "ko": "조타 강화 장치 2",
+      "en": "Steering Gears Mod 2",
+      "img": "워쉽 레전드 강화장치 조타2.png"
+    },
+    "Steering Gears Mod 3": {
+      "ko": "조타 강화 장치 3",
+      "en": "Steering Gears Mod 3",
+      "img": "워쉽 레전드 강화장치 조타3.png"
+    },
+    "Target Acquisition System Mod 1": {
+      "ko": "표적 탐지 시스템 강화 장치 1",
+      "en": "Target Acquisition System Mod 1",
+      "img": "워쉽 레전드 강화장치 표적1.png"
+    },
+    "Torpedo Tube Mod 3": {
+      "ko": "어뢰 발사관 강화 장치 3",
+      "en": "Torpedo Tube Mod 3",
+      "img": "워쉽 레전드 강화장치 어뢰3.png"
+    }
+  },
+  "nation_colors": {
+    "american": "002664",
+    "japanese": "df4d4d",
+    "british": "00247D",
+    "german": "353535",
+    "french": "1E90FF",
+    "soviet": "87CEEB",
+    "italian": "009246",
+    "pan-asian": "DE2910",
+    "pan-european": "006AA7",
+    "netherlands": "FF7F00",
+    "pan-american": "448bff",
+    "commonwealth": "000080",
+    "spanish": "DAA520"
+  },
+  "rules": {
+    "bomber": {
+      "ap_trait_keys": [
+        "AP Bomb",
+        "AP Bombs",
+        "Armor Piercing Bomb",
+        "Armor-piercing Bomb"
+      ],
+      "carpet_trait_keys": [
+        "Carpet Bombing"
+      ],
+      "low_alt_trait_keys": [
+        "Skip Bombers",
+        "Skip Bomber"
+      ],
+      "bomb_type_default_ko": "고폭탄",
+      "bomb_type_ap_ko": "철갑탄",
+      "mode_carpet_ko": "융단",
+      "mode_low_alt_ko": "저공"
+    }
+  },
+  "ships": {}
+}

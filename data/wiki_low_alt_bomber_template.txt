@@ -1,0 +1,11 @@
+||<tablewidth=100%><table bordercolor=#{{border_color}}><#{{border_color}}><-5> {{{#FFFFFF 저공 폭격기}}} ||
+||<#{{border_color}}> {{{#FFFFFF 명칭}}} ||<-4> {{name}} ||
+||<|4><width=5%><#{{border_color}}> {{{#FFFFFF 기체}}} ||<#{{border_color}}><width=23.75%> {{{#FFFFFF 내구도}}} ||<#{{border_color}}><width=23.75%> {{{#FFFFFF 최고 속력}}} ||<#{{border_color}}><width=23.75%> {{{#FFFFFF 피탐지}}} ||<#{{border_color}}><width=23.75%> {{{#FFFFFF 항속 거리}}} ||
+|| {{hp}} || {{speed}}knots || {{detect_km}}km || {{flight_km}}km ||
+||<#{{border_color}}><width=23.75%>  {{{#FFFFFF 공격 규모}}} ||<#{{border_color}}><width=23.75%> {{{-1 {{{#FFFFFF 편대 내 함재기}}}}}} ||<#{{border_color}}><width=23.75%> {{{#FFFFFF 최대 격납수}}} ||<#{{border_color}}><width=23.75%> {{{-1 {{{#FFFFFF 정비시간/정비 대수}}}}}} ||
+|| {{attack_size}}대 || {{per_squadron}}대 || {{reserve}}대 || {{restoration_sec}}초 / {{restoration_count}}대 ||
+||<|5><width=5%><#{{border_color}}> {{{#FFFFFF 무장}}} ||<#{{border_color}}><width=23.3%> {{{#FFFFFF 폭탄 탄종}}} ||<#{{border_color}}><width=23.3%> {{{#FFFFFF 적재량}}} ||<#{{border_color}}><width=23.3%> {{{#FFFFFF 폭탄 최대 공격력}}} ||<#{{border_color}}><width=23.3%> {{{#FFFFFF 폭탄 관통력}}} ||
+|| {{bomb_type}} || {{payload}}발 || {{bomb_damage}} || {{bomb_pen_cell}} ||
+||<-4> {{{#!wiki style="margin: -16px -11px;" 
+||<tablewidth=100%><#{{border_color}}><width=33.3%> {{{#FFFFFF 반동 횟수}}} ||<#{{border_color}}><width=33.3%> {{{-1 {{{#FFFFFF 신관 지속 반동 횟수}}}}}} ||<#{{border_color}}><width=33.3%> {{{#FFFFFF 화재 유발 확률}}} ||
+|| {{rebound_count}}회 || {{fuze_rebound_count}}회 || {{fire_chance_cell}} ||}}} ||

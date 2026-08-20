@@ -1,0 +1,3 @@
+||<-4><tablewidth=100%><table bordercolor=#{{border_color}}><bgcolor=#{{border_color}}> {{{#ffffff 소모품}}} ||
+||<tablewidth=100%><table bordercolor=#{{border_color}}><bgcolor=#{{border_color}}><width=7.5%> {{{#ffffff 대상}}} ||<bgcolor=#{{border_color}}><width=7.5%> {{{#ffffff 슬롯 위치}}} ||<bgcolor=#{{border_color}}> {{{#ffffff 명칭}}} ||<bgcolor=#{{border_color}}> {{{#ffffff 효과}}} ||
+{{cv_rows}}

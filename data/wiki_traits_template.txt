@@ -1,0 +1,2 @@
+||<-3><tablewidth=100%><width=25%><table bordercolor=#{{border_color}}><#{{border_color}}> {{{#FFFFFF 특성}}} ||
+||<width=33.3%> [include(월드 오브 워쉽 레전드/특성/{{trait_1}})] ||<width=33.3%> [include(월드 오브 워쉽 레전드/특성/{{trait_2}})] ||<width=33.3%> [include(월드 오브 워쉽 레전드/특성/{{trait_3}})] ||

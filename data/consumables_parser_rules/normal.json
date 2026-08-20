@@ -1,0 +1,171 @@
+{
+  "consumables": {
+    "Damage Control Party": {
+      "ko": "피해 복구반",
+      "aliases": ["피해 복구반"],
+      "description": "모든 상태이상 제거 밎 작동시간 동안 면역 유지"
+    },
+    "Sonar": {
+      "ko": "소나",
+      "aliases": ["Hydroacoustic Search", "소나"],
+      "parsers": [
+        {
+          "field": "torpedo_detect_km",
+          "patterns": ["Detection of torpedoes: {n}km"]
+        },
+        {
+          "field": "ship_detect_km",
+          "patterns": ["Detection of ships: {n}km"]
+        }
+      ],
+      "description": "지속기간 동안 군함 및 어뢰 탐지 범위 증가 [br] 범위 내 어뢰 강제 탐지 {torpedo_detect_km}km, 군함 강제 탐지 {ship_detect_km}km"
+    },
+    "Advanced Sonar": {
+      "ko": "고급 소나",
+      "aliases": ["Enhanced Sonar", "고급 소나"],
+      "parsers": [
+        {
+          "field": "torpedo_detect_km",
+          "patterns": ["Detection of torpedoes: {n}km"]
+        },
+        {
+          "field": "ship_detect_km",
+          "patterns": ["Detection of ships: {n}km"]
+        }
+      ],
+      "description": "지속기간 동안 군함 및 어뢰 탐지 범위 증가 [br] 범위 내 어뢰 강제 탐지 {torpedo_detect_km}km, 군함 강제 탐지 {ship_detect_km}km [br] {{{#006400 패시브 : 15초 동안 10km 이내에 적 군함이 발사한 어뢰 발사 지점중 가장 가까운 방향을 표시}}}"
+    },
+    "Radar": {
+      "ko": "레이더",
+      "aliases": ["Surveillance Radar", "레이더"],
+      "parsers": [
+        {
+          "field": "ship_detect_km",
+          "patterns": ["Range: {n}km"]
+        }
+      ],
+      "description": "반경 내 군함을 강제 탐지하는 레이더 작동 [br] 범위 내 군함 강제 탐지 {ship_detect_km}km"
+    },
+    "Repair Party": {
+      "ko": "수리반",
+      "aliases": ["수리반"],
+      "parsers": [
+        {
+          "field": "hp_per_sec",
+          "patterns": ["HP per second: +{n}", "HP per second: {n}"]
+        }
+      ],
+      "description": "지속기간 동안 내구도 회복 [br] 작동 시 초당 체력 +{hp_per_sec}"
+    },
+    "Defensive AA Fire": {
+      "ko": "대공 방어 사격",
+      "aliases": ["대공 방어 사격"],
+      "parsers": [
+        {
+          "field": "avg_aa_pct",
+          "patterns": ["Average AA damage: +{n}%", "Average AA damage: {n}%"]
+        }
+      ],
+      "description": "지속기간 동안 평균 대공 공격력 대폭 상승 [br] 평균 대공 공격력 +{avg_aa_pct}%"
+    },
+    "Engine Boost": {
+      "ko": "엔진 가속기",
+      "aliases": ["엔진 가속기"],
+      "parsers": [
+        {
+          "field": "max_speed_pct",
+          "patterns": ["Maximum speed: +{n}%", "Maximum speed: {n}%"]
+        }
+      ],
+      "description": "지속기간 동안 최고 속력 및 엔진 출력 증가 [br] 작동 시 최고 속력 +{max_speed_pct}%"
+    },
+    "Smoke Generator": {
+      "ko": "연막 생성기",
+      "aliases": ["연막 생성기"],
+      "parsers": [
+        {
+          "field": "dispersion_sec",
+          "patterns": ["Smoke dispersion time: {n}s", "Dispersion time: {n}s", "Dispersion: {n}s"]
+        }
+      ],
+      "description": "피탐지 범위를 감소시키는 연막 생성"
+    },
+    "Exhaust Smoke Generator": {
+      "ko": "배기식 연막 생성기",
+      "aliases": ["배기식 연막 생성기"],
+      "parsers": [
+        {
+          "field": "dispersion_sec",
+          "patterns": ["Smoke dispersion time: {n}s", "Dispersion time: {n}s", "Dispersion: {n}s"]
+        }
+      ],
+      "description": "피탐지 범위를 감소시키는 연막 생성, 고속 기동에서도 적용"
+    },
+    "Torpedo Reload Booster": {
+      "ko": "어뢰 장전기",
+      "aliases": ["어뢰 장전기"],
+      "parsers": [
+        {
+          "field": "torp_reload_to_sec",
+          "patterns": ["Reload time to {n}s", "Torpedo launchers reload time: {n}s", "Torpedo reload time: {n}s"]
+        }
+      ],
+      "description": "어뢰 발사관의 재장전 시간을 {torp_reload_to_sec}초로 변경"
+    },
+    "Main Battery Reload Booster": {
+      "ko": "주함포 재장전 가속기",
+      "aliases": ["주함포 재장전 가속기"],
+      "parsers": [
+        {
+          "field": "main_reload_pct",
+          "patterns": ["Main battery reload time: -{n}%", "Main battery reload time: {n}%", "Main battery reload: -{n}%"]
+        }
+      ],
+      "description": "지속기간 동안 주함포 재장전 시간 감소 [br] 작동 시 주함포 재장전 시간 -{main_reload_pct}%"
+    },
+    "Enhanced Secondary Targeting": {
+      "ko": "부함포 조준 강화",
+      "aliases": ["부함포 조준 강화"],
+      "parsers": [
+        {
+          "field": "sec_grouping_pct",
+          "patterns": ["Secondary battery shell grouping: +{n}%", "Secondary battery shell grouping: {n}%"]
+        },
+        {
+          "field": "sec_dispersion_pct",
+          "patterns": ["Secondary battery dispersion: -{n}%", "Secondary battery dispersion: {n}%"]
+        }
+      ],
+      "description": "지속기간 동안 부함포 명중률 상승 [br] 부함포 포탄 집중도 +{sec_grouping_pct}% / 부함포 분산도 -{sec_dispersion_pct}%"
+    },
+    "Enhanced Secondary Targeting II": {
+      "ko": "부함포 조준 강화 II",
+      "aliases": ["부함포 조준 강화 II"],
+      "parsers": [
+        {
+          "field": "sec_grouping_pct",
+          "patterns": ["Secondary battery shell grouping: +{n}%", "Secondary battery shell grouping: {n}%"]
+        },
+        {
+          "field": "sec_dispersion_pct",
+          "patterns": ["Secondary battery dispersion: -{n}%", "Secondary battery dispersion: {n}%"]
+        },
+        {
+          "field": "sec_reload_pct",
+          "patterns": ["Secondary battery reload time: -{n}%", "Secondary battery reload: -{n}%", "Secondary battery reload time: {n}%"]
+        }
+      ],
+      "description": "지속기간 동안 부함포 명중률 및 연사력 상승 [br] 부함포 포탄 집중도 +{sec_grouping_pct}% / 부함포 분산도 -{sec_dispersion_pct}% / 부함포 재장전 시간 -{sec_reload_pct}%"
+    },
+    "Catapult Fighter": {
+      "ko": "사출 전투기",
+      "aliases": ["Fighter", "사출 전투기"],
+      "description": "지속기간 동안 적 항공기를 자동으로 요격하는 전투기 사출"
+    },
+    "Observation Seaplane": {
+      "ko": "정찰기",
+      "aliases": ["정찰기"],
+      "description": "주함포 명중률을 상승시키는 정찰기 사출 [br] 주함포 포탄 집중도 +10%"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+
+build/
+dist/
+*.egg-info/
+
+data/ui_state.json
+data/*.bak
+data/backups/
+
+*.log
+
+wikitest*.txt

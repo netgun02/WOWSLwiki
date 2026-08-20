@@ -1,0 +1,9 @@
+{
+  "timing": "지속 {duration}초 / 쿨타임 {reload}초 / {count_text}",
+  "timing_with_dispersion": "지속 {duration}초 / 분산 {dispersion_sec}초 / 쿨타임 {reload}초 / {count_text}",
+  "count": "사용횟수 {count}회",
+  "cv_count": "사용 횟수 {count}회",
+  "unlimited": "무제한 소모품",
+  "missing_count": "사용횟수 회",
+  "cv_missing_count": "사용 횟수 회"
+}

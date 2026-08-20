@@ -1,0 +1,6 @@
+||<|2><tablewidth=100%><table bordercolor=#{{border_color}}><bgcolor=#{{border_color}}><width=20%> {{{#ffffff 생존}}} ||<bgcolor=#{{border_color}}><width=26.6%> {{{#ffffff 내구도}}} ||<bgcolor=#{{border_color}}><width=26.6%> {{{#ffffff 어뢰방호}}} ||<bgcolor=#{{border_color}}><width=26.6%> {{{#ffffff 장갑}}} ||
+|| {{hitpoints}} || {{torpedo_reduction}}% || {{armor_range}}mm ||
+||<|2><bgcolor=#{{border_color}}><width=20%> {{{#ffffff 기동}}} ||<bgcolor=#{{border_color}}><width=26.6%> {{{#ffffff 선회반경}}} ||<bgcolor=#{{border_color}}><width=26.6%> {{{#ffffff 전타시간}}} ||<bgcolor=#{{border_color}}><width=26.6%> {{{#ffffff 최고속도}}} ||
+|| {{turning_radius_m}}m || {{rudder_shift_sec}}초 || {{max_speed_kt}}knot ||
+||<|2><bgcolor=#{{border_color}}><width=20%> {{{#ffffff 피탐지}}} ||<bgcolor=#{{border_color}}><width=26.6%> {{{#ffffff 수상 피탐지}}} ||<bgcolor=#{{border_color}}><width=26.6%> {{{#ffffff 공중 피탐지}}} ||<bgcolor=#{{border_color}}><width=26.6%> {{{#ffffff 연막 내 발포후 피탐지}}} ||
+|| {{detect_sea_km}}km || {{detect_air_km}}km || {{detect_smoke_cell}} ||

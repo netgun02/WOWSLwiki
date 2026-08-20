@@ -1,0 +1,8 @@
+||<tablewidth=100%><table bordercolor=#{{border_color}}><#{{border_color}}><-6> {{{#FFFFFF 공습 공격}}} ||
+||<#{{border_color}}><width=5%> {{{#FFFFFF 명칭}}} ||<-5> {{air_name}} ||
+||<#{{border_color}}><width=5%><|4> {{{#FFFFFF 기체}}} ||<#{{border_color}}><width=23.75%> {{{#FFFFFF 공격 방식}}} ||<#{{border_color}}><width=23.75%> {{{#FFFFFF 내구도}}} ||<#{{border_color}}><width=23.75%> {{{#FFFFFF 최고 속력}}} ||<#{{border_color}}><width=23.75%> {{{#FFFFFF 사거리}}} ||
+|| {{air_mode}} || {{air_hp}} || {{air_speed}}knots || {{air_range}}km ||
+||<#{{border_color}}><width=23.75%> {{{#FFFFFF 공격 대수}}} ||<#{{border_color}}><width=23.75%> {{{#FFFFFF 총 편대 수}}} ||<#{{border_color}}><width=23.75%> {{{#FFFFFF 장전 시간}}} ||<#{{border_color}}><width=23.75%> {{{#FFFFFF 도달 시간}}} ||
+|| {{air_attack_units}}대 || {{air_total_squadrons}}편대 || {{air_reload_sec}}초 || {{air_arrival_sec}}초 ||
+||<#{{border_color}}><width=5%><|4> {{{#FFFFFF 무장}}} ||{{air_weapon_header}} ||
+||{{air_weapon_row}} ||

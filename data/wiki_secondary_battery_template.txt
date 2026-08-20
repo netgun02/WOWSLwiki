@@ -1,0 +1,7 @@
+||<tablewidth=100%><table bordercolor=#{{border_color}}><#{{border_color}}><-8> {{{#FFFFFF 부함포}}} ||
+||<#{{border_color}}><width=25%> {{{#FFFFFF 명칭}}} ||<#{{border_color}}><width=25%> {{{#FFFFFF 탑재 수}}} ||<#{{border_color}}><width=25%> {{{#FFFFFF 장전 시간}}} ||<#{{border_color}}><width=25%> {{{#FFFFFF 사거리}}} ||
+||<|2> {{secondary1_name}} || {{secondary1_arrangement}} || {{secondary1_reload_sec}}초 || {{secondary1_range_km}}km ||
+||<-3> {{{#!wiki style="margin: -16px -11px;"
+||<tablewidth=100%><width=25%><#{{border_color}}> {{{#FFFFFF 탄종}}} ||<#{{border_color}}><width=25%> {{{#FFFFFF 최대 공격력}}} ||<#{{border_color}}><width=25%> {{{#FFFFFF 화재 확률}}} ||<#{{border_color}}><width=25%> {{{#FFFFFF 관통력}}} ||
+|| {{secondary1_shell_type}} || {{secondary1_damage}} || {{secondary1_fire}} || {{secondary1_pen}} ||}}} ||
+{{secondary2_block}}
