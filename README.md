@@ -4,12 +4,7 @@
 
 ## EXE 다운로드 및 실행
 
-Python 설치나 소스 빌드 없이 다음 두 배포본 중 하나를 사용할 수 있습니다.
-
-- [wowslnamu.exe](./wowslnamu.exe): 파일 하나만 내려받아 바로 실행하는 단일 파일 배포본
-- [wowslnamu.zip](./wowslnamu.zip): 실행 속도와 파일 구성을 분리한 폴더형 배포본
-
-ZIP 배포본은 다음 순서로 실행합니다.
+Python 설치나 소스 빌드 없이 저장소의 [wowslnamu.zip](./wowslnamu.zip) 파일만 다운로드해서 사용할 수 있습니다.
 
 1. `wowslnamu.zip`을 다운로드합니다.
 2. ZIP 파일의 압축을 전부 해제합니다.
@@ -38,7 +33,6 @@ Python.org 배포판 Python 3.11과 PyInstaller를 사용합니다.
 ```powershell
 py -3.11 -m pip install -r requirements-build.txt
 py -3.11 -m PyInstaller --clean --noconfirm .\wowslnamu.spec
-py -3.11 -m PyInstaller --clean --noconfirm .\wowslnamu_onefile.spec
 ```
 
-폴더형 실행 파일은 `dist\wowslnamu\wowslnamu.exe`, 단일 파일 실행본은 `dist\wowslnamu-onefile.exe`에 생성됩니다. 폴더형 배포본은 `wowslnamu` 폴더 전체를 함께 전달해야 합니다.
+완성된 실행 파일은 `dist\wowslnamu\wowslnamu.exe`에 생성됩니다. 배포할 때는 `wowslnamu` 폴더 전체를 함께 전달해야 합니다.
